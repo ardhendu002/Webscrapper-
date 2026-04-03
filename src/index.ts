@@ -15,7 +15,7 @@ AxiosInstance.get(url)
   .then(response => {
     const html = response.data as string;
     const $ = cheerio.load(html);
-    const statsTable: cheerio.Cheerio = $('.cb-series-stats-container tr');
+    const statsTable: cheerio.Cheerio<any>= $('.cb-series-stats-container tr');
     const topScorers: PlayerData[] = [];
 
     statsTable.each((i, elem) => {
