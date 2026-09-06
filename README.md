@@ -231,6 +231,3 @@ Then open a PR against `main`.
 
 ---
 
-## License
-
-MIT — do whatever you want with it, just don't blame me if Cricbuzz changes their HTML structure.
